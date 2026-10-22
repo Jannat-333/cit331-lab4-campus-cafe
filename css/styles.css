@@ -259,5 +259,10 @@ input[placeholder]:not(:placeholder-shown):invalid {
   color: #0a6b50;
 }
 
+/* ---------- TEMPORARY: specificity experiment (delete in Step 4.9) ---------- */
+main p {
+  color: red;
+}
+
 
 
